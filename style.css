@@ -57,6 +57,15 @@
     transition: .4s;
 }
 
+.raha nav i {
+    font-size: 40px;
+    cursor: pointer;
+    z-index: 10001;
+    margin-left: 20px;
+    color: white;
+    display: none;
+}
+
 /* end menu style */
 
 .content {
