@@ -264,3 +264,40 @@
 }
 
 /* end style for projects section */
+
+/* start contactMe sec */
+.contactMe {
+    width: 100%;
+    height: 290px;
+    background: #191919;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contactMe p {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.contactMe .buttonContact {
+    background: #4e19fd;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.contactMe .buttonContact:hover {
+    background: transparent;
+    border: 2px solid #4e19fd;
+    cursor: pointer;
+}
+
+/* finish contactMe sec */
