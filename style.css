@@ -5,6 +5,59 @@
     box-sizing: border-box;
 }
 
+/* start styles for first section */
+
+.raha {
+    height: 100vh;
+    width: 100%;
+    background-image: url(Img/bgimg.avif);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.raha nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.raha h2.logo {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+
+.raha h2.logo span {
+    color: #4e19fd;
+}
+
+/* finish section one */
+/* start menu style */
+.raha nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+
+}
+
+.raha nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.raha nav ul li a:hover {
+    color: #4e19fd;
+    transition: .4s;
+}
+
+/* end menu style */
 /* 
 .aboutMe {
     width: 100%;
