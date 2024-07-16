@@ -58,6 +58,67 @@
 }
 
 /* end menu style */
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+.content h1 {
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 68px;
+    letter-spacing: 2px;
+}
+
+.content h3 {
+    color: white;
+    font-size: 28px;
+    margin-bottom: 50px;
+}
+
+.content h4 {
+    color: hsla(215, 100%, 82%, 0.8);
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.letter form {
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+
+.letter form input:first-child {
+    display: inline-block;
+    width: 100%;
+    padding: 14px 150px 14px 15px;
+    border: 2px solid #4e19fd;
+    outline: none;
+    border-radius: 35px;
+}
+
+.letter form input:last-child {
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 35px;
+    background-color: #4e19fd;
+    color: white;
+    box-shadow: 0px 0px 5px #000, 0px 0px 10px #858585;
+    top: 6px;
+    right: 5px;
+}
+
+.content h1 span {
+    color: #4e19fd;
+}
+
+/* end first section  */
 /* 
 .aboutMe {
     width: 100%;
