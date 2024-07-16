@@ -4,3 +4,69 @@
     font-family: 'josefin sans', sans-serif;
     box-sizing: border-box;
 }
+
+.aboutMe {
+    width: 100%;
+    padding: 110px 0px;
+    background-color: #191919;
+}
+
+.aboutMe img {
+    height: auto;
+    width: 420px;
+    border-radius: 12px;
+}
+
+.aboutMe-text {
+    width: 580px;
+}
+
+.main {
+    width: 1120px;
+    /* max-width: 95%; */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.aboutMe-text h1 {
+    color: white;
+    font-size: 68px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.aboutMe-text h5 {
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2.3px;
+}
+
+.aboutMe-text p {
+    color: hsla(215, 100%, 82%, 0.8);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 15px;
+    margin-bottom: 45px;
+}
+
+.aboutMe-text button {
+    background: #4e19fd;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+
+}
+
+.aboutMe-text button:hover {
+    background: transparent;
+    border: 2px solid #4e19fd;
+    cursor: pointer;
+}
